@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidFcmPushNotificationDemo</string>
+    <string name="firebase_instance_id_token_title">Firebase Instance Id Token：</string>
+</resources>

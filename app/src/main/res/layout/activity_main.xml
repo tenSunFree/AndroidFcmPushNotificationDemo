@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#DCD9C6"
+        android:orientation="vertical"
+        android:padding="@dimen/general_distance"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:textColor="@color/dark_black"
+            android:textStyle="bold"
+            android:textSize="@dimen/activity_main_title"
+            android:text="@string/firebase_instance_id_token_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textColor="@color/light_brown"
+            android:textStyle="italic"
+            android:textSize="@dimen/activity_main_content"
+            android:layout_marginTop="@dimen/general_distance"
+            android:id="@+id/tokenTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
